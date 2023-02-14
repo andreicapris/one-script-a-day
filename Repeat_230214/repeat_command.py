@@ -47,3 +47,4 @@ for i in range(int(iterations)):
 	os.system(cmd_inter) #replace cmd_inter with power_inter for powershell 
 	time.sleep(i_st) #how long till the command is ran again (seconds)
 	os.system('cmd /c \"cls\"') #clears the screen so that it will be easy to monitor that window if necesary
+	#if the above line is commented it will show each output consecutively. 
